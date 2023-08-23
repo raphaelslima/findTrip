@@ -2,6 +2,7 @@
 import {signIn,  signOut, useSession} from 'next-auth/react'
 import TripSearch from './components/tripSearch'
 import QuickSearch from './components/quickSearch'
+import RecommendedTrips from './components/recommendedTrips'
 
 export default function Home() {
 
@@ -11,6 +12,7 @@ export default function Home() {
     <div>
       <TripSearch/>
       <QuickSearch/>
+      <RecommendedTrips/>
     </div>
   )
 }
