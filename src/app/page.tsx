@@ -6,8 +6,8 @@ export default function Home() {
   const {data} = useSession()
 
   return (
-    <div className='flex flex-col'>
-      teste
+    <div>
+   
     </div>
   )
 }
